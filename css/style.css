@@ -785,6 +785,7 @@ fieldset {
     }
     .about-border {
         width: 265px;
+        height: 265px;
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;

@@ -106,7 +106,7 @@ $(document).ready(function () {
     //animatedModal
     $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
 
-    // Contact Form 	
+    // Contact Form
 
     // validate contact form
     $(function () {
@@ -129,14 +129,14 @@ $(document).ready(function () {
             },
             messages: {
                 name: {
-                    required: "This field is required",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Это поле обязательно",
+                    minlength: "Ваше имя должно содержать минимум 2 символа"
                 },
                 email: {
-                    required: "This field is required"
+                    required: "Это поле обязательно"
                 },
                 message: {
-                    required: "This field is required"
+                    required: "Это поле обязательно"
                 }
             },
             submitHandler: function (form) {

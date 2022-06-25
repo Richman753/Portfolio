@@ -113,6 +113,8 @@ $(document).ready(function () {
     $("#demo07").animatedModal7();
     // Contact Form
 
+
+
     // validate contact form
     $(function () {
         $('#contact-form').validate({
